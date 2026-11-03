@@ -149,3 +149,180 @@ Frontmatter: description, agent: build-engineer.
 5. Як оркестратор init обробляє помилки.
 6. Таблиця відповідності файлів ролям: agent -> .github/agents/, skills -> .github/skills/, commands -> .github/prompts/.
 7. Примітка, що використано формат VS Code Copilot (custom agents, prompt files, agent skills).
+
+14. <current_datetime>2026-11-03T22:01:56.736+02:00</current_datetime>
+
+Analyze this codebase and create a .github/copilot-instructions.md file to help future Copilot sessions work effectively in this repository.
+
+## What to include
+
+1. **Build, test, and lint commands** - If they exist. Include how to run a single test, not just the full suite
+2. **High-level architecture** - Focus on the "big picture" that requires reading multiple files to understand
+3. **Key conventions** - Patterns specific to this codebase that aren't obvious from reading a single file
+
+## What NOT to include
+
+- Generic development practices (e.g., "write unit tests", "use meaningful names")
+- Obvious instructions that any developer would know
+- Exhaustive file/directory listings that can be easily discovered
+- Made-up sections like "Tips for Development" unless they exist in actual docs
+- Explanations of why something ISN'T relevant (just omit it)
+
+## Integration
+
+- If .github/copilot-instructions.md already exists, suggest improvements rather than replacing it entirely
+- Incorporate important parts from README.md, CONTRIBUTING.md, or existing instruction files
+- Check for other AI assistant configs and incorporate their important parts:
+  - Claude/OpenCode: CLAUDE.md
+  - Cursor: .cursorrules, .cursor/rules/
+  - Codex/Jules/OpenCode: AGENTS.md
+  - Windsurf: .windsurfrules
+  - Aider: CONVENTIONS.md, AIDER_CONVENTIONS.md
+  - Cline: .clinerules, .cline_rules
+
+## MCP Servers
+
+After creating the file, briefly ask if the user wants to configure any MCP servers relevant to the project type (e.g., Playwright for web projects). If none seem relevant, skip this section entirely - do not explain why MCP servers aren't needed.
+
+## Finishing up
+
+End with a brief summary of what you created and ask if the user wants to adjust anything or add coverage for areas you may have missed. Do not list what you omitted.
+
+Start by exploring the repository structure.
+
+15. <current_datetime>2026-11-03T22:03:20.705+02:00</current_datetime>
+
+/check
+
+16. <current_datetime>2026-11-03T22:05:01.149+02:00</current_datetime>
+
+Analyze this codebase and create a .github/copilot-instructions.md file to help future Copilot sessions work effectively in this repository.
+
+## What to include
+
+1. **Build, test, and lint commands** - If they exist. Include how to run a single test, not just the full suite
+2. **High-level architecture** - Focus on the "big picture" that requires reading multiple files to understand
+3. **Key conventions** - Patterns specific to this codebase that aren't obvious from reading a single file
+
+## What NOT to include
+
+- Generic development practices (e.g., "write unit tests", "use meaningful names")
+- Obvious instructions that any developer would know
+- Exhaustive file/directory listings that can be easily discovered
+- Made-up sections like "Tips for Development" unless they exist in actual docs
+- Explanations of why something ISN'T relevant (just omit it)
+
+## Integration
+
+- If .github/copilot-instructions.md already exists, suggest improvements rather than replacing it entirely
+- Incorporate important parts from README.md, CONTRIBUTING.md, or existing instruction files
+- Check for other AI assistant configs and incorporate their important parts:
+  - Claude/OpenCode: CLAUDE.md
+  - Cursor: .cursorrules, .cursor/rules/
+  - Codex/Jules/OpenCode: AGENTS.md
+  - Windsurf: .windsurfrules
+  - Aider: CONVENTIONS.md, AIDER_CONVENTIONS.md
+  - Cline: .clinerules, .cline_rules
+
+## MCP Servers
+
+After creating the file, briefly ask if the user wants to configure any MCP servers relevant to the project type (e.g., Playwright for web projects). If none seem relevant, skip this section entirely - do not explain why MCP servers aren't needed.
+
+## Finishing up
+
+End with a brief summary of what you created and ask if the user wants to adjust anything or add coverage for areas you may have missed. Do not list what you omitted.
+
+Start by exploring the repository structure.
+
+17. <current_datetime>2026-11-03T22:19:23.752+02:00</current_datetime>
+
+Follow instructions in [init.prompt.md](шлях до файла init.prompt.md).
+
+18. <current_datetime>2026-11-03T22:21:21.564+02:00</current_datetime>
+
+скачай rust toolcahin
+
+19. <current_datetime>2026-11-03T22:23:59.240+02:00</current_datetime>
+
+You have not yet marked the task as complete using the task_complete tool. If you were planning, stop planning and start implementing. You aren't done until you have fully completed the task.
+
+IMPORTANT: Do NOT call task_complete if:
+- You have open questions or ambiguities - make good decisions and keep working
+- You encountered an error - try to resolve it or find an alternative approach
+- There are remaining steps - complete them first
+
+Keep working autonomously until the task is truly finished, then call task_complete.
+
+20. <current_datetime>2026-11-03T22:26:20.764+02:00</current_datetime>
+
+Follow instructions in [init.prompt.md](шлях до файла init.prompt.md).
+
+21. <current_datetime>2026-11-03T22:32:08.921+02:00</current_datetime>
+
+Follow instructions in [init.prompt.md](шлях до файла init.prompt.md).
+
+22. <current_datetime>2026-11-03T22:33:17.996+02:00</current_datetime>
+
+Analyze this codebase and create a .github/copilot-instructions.md file to help future Copilot sessions work effectively in this repository.
+
+## What to include
+
+1. **Build, test, and lint commands** - If they exist. Include how to run a single test, not just the full suite
+2. **High-level architecture** - Focus on the "big picture" that requires reading multiple files to understand
+3. **Key conventions** - Patterns specific to this codebase that aren't obvious from reading a single file
+
+## What NOT to include
+
+- Generic development practices (e.g., "write unit tests", "use meaningful names")
+- Obvious instructions that any developer would know
+- Exhaustive file/directory listings that can be easily discovered
+- Made-up sections like "Tips for Development" unless they exist in actual docs
+- Explanations of why something ISN'T relevant (just omit it)
+
+## Integration
+
+- If .github/copilot-instructions.md already exists, suggest improvements rather than replacing it entirely
+- Incorporate important parts from README.md, CONTRIBUTING.md, or existing instruction files
+- Check for other AI assistant configs and incorporate their important parts:
+  - Claude/OpenCode: CLAUDE.md
+  - Cursor: .cursorrules, .cursor/rules/
+  - Codex/Jules/OpenCode: AGENTS.md
+  - Windsurf: .windsurfrules
+  - Aider: CONVENTIONS.md, AIDER_CONVENTIONS.md
+  - Cline: .clinerules, .cline_rules
+
+## MCP Servers
+
+After creating the file, briefly ask if the user wants to configure any MCP servers relevant to the project type (e.g., Playwright for web projects). If none seem relevant, skip this section entirely - do not explain why MCP servers aren't needed.
+
+## Finishing up
+
+End with a brief summary of what you created and ask if the user wants to adjust anything or add coverage for areas you may have missed. Do not list what you omitted.
+
+Start by exploring the repository structure.
+
+23. <current_datetime>2026-11-03T22:34:10.303+02:00</current_datetime>
+
+Follow instructions in [init.prompt.md](шлях до файла init.prompt.md).
+
+24. <current_datetime>2026-11-03T22:35:10.177+02:00</current_datetime>
+
+/check
+
+25. <current_datetime>2026-11-03T22:40:03.584+02:00</current_datetime>
+
+при git status Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .github/copilot-instructions.md
+        .github/workflows/
+        .gitignore
+        Cargo.lock
+        Cargo.toml
+        ci.bat
+        src/
+        tests/ 
+        А в коміт мають попасти тільки перші три. зроби так
+
+26. <current_datetime>2026-11-03T22:40:43.908+02:00</current_datetime>
+
+Створи docs/usage.md: точні команди запуску агента (VS Code, Copilot Chat, агент build-engineer, /init, /check), локальної збірки і перевірки (./ci.sh на Linux/macOS, ci.bat на Windows), запуску hello (./dist/hello або dist\hello.exe), запуску тестів (cargo test --release).
